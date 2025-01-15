@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <!-- header content -->
+        <div class="leftside">
+          <div class="company-details">
+            <div class="logo">
+              <img src="./Assets/Logo Chalet_page-0001.jpg" alt="logoImage" />
+            </div>
+            <div class="company-info">
+              <div>
+                <h2>CHALLET INN</h2>
+                <h5>Rent&Sale</h5>
+              </div>
+            </div>
+          </div>
+          <div class="contact-details">
+            <p>Porto El Sokhna</p>
+            <p>P: 01040090545</p>
+            <p>P: 01060000461</p>
+            <p>info@chaletinn.com</p>
+          </div>
+        </div>
+        <div class="rightside">
+          <div class="invoice-info">
+            <h3>INVOICE</h3>
+            <div class="invoice-content">
+              <span class="title">Invoice #:</span>
+              <span class="details">1</span>
+            </div>
+            <div class="invoice-content">
+              <span class="title">Invoice date:</span>
+              <span class="details">11/4/2024</span>
+            </div>
+            <div class="div-det">
+              <div class="invoice-content">
+                <span class="title">Bill to:</span>
+                <span class="details">Mr. Milad</span>
+              </div>
+              <div class="invoice-content">
+                <span class="title">Sector:</span>
+                <span class="details">Pyramids</span>
+              </div>
+              <div class="invoice-content">
+                <span class="title">Unit: No.:</span>
+                <span class="details"> 10725</span>
+              </div>
+              <div class="invoice-content">
+                <span class="title">Phone:</span>
+                <span class="details">(+20)1222233010</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ----------------------------------- main table ---------------- -->
+      <div class="invoice-table">
+        <table class="main-table" border="1">
+          <thead>
+            <tr>
+              <th>NO#</th>
+              <th>Date (From)</th>
+              <th>Date (To)</th>
+              <th>No. of days/month</th>
+              <th>Unit price</th>
+              <th>Income</th>
+              <th>Commission %</th>
+              <th>Commission</th>
+              <th>Net Profit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>01/11/24</td>
+              <td>1/12/24</td>
+              <td>1</td>
+              <td>15,000</td>
+              <td>15,000</td>
+              <td>10%</td>
+              <td>1,000</td>
+              <td>14,000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>ج.م. 0</td>
+            <td></td>
+            <td> ج.م. 0</td>
+            <td>$0.00</td>
+          </tr>
+          <tr>
+            <td colspan="6" class="table-border"></td>
+            <td>Income</td>
+            <!-- <td colspan="7" class="income">Income</td> -->
+            <td>100</td>
+            <!-- <td colspan="2" class="empty-cell"></td> -->
+            <td>ج.م. 1</td>
+          </tr>
+          <tr>
+            <td colspan="6" class="table-border"></td>
+            <td colspan="2">Water con.</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td colspan="6" class="table-border"></td>
+            <td colspan="2">Electric con.</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td colspan="6" class="table-border"></td>
+            <td colspan="2">Maintenance</td>
+            <td>600 ج.م</td>
+          </tr>
+          <tr>
+            <td colspan="6" class="table-border"></td>
+            <td colspan="2" class="highlight">TOTAL</td>
+            <td class="highlight">12,900 ج.م</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <!-- -----------------------------------Maintenance Details ----------->
+      <div class="Maintenance">
+        <h3>Maintenance Details</h3>
+        <table class="maintenance-table" >
+          <thead>
+              <tr>
+                <th>#N</th>
+                  <th>البند</th>
+                  <th>التكلفة</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td>1</td>
+                <td>أركه وليب</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                  <td>كارت الكهرباء</td>
+                  <td>300</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                  <td>تثبيت المنشر</td>
+                  <td>100</td>
+              </tr>
+              <tr class="highlight">
+                <td colspan="2">Total</td>
+                <td>600</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>   
+    
+    </div>
+  </body>
+</html>
